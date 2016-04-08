@@ -52,14 +52,16 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Log in"
+        android:text="Sign in"
         android:id="@+id/loginBtn"
         android:layout_marginTop="24dp"
         android:layout_below="@+id/loginPassword"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:background="#000000"
+        android:textColor="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -67,8 +69,9 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Forgot password"
         android:id="@+id/forgotPasswordBtn"
-        android:layout_marginBottom="63dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/loginBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:textColor="#2fdc03" />
 
 </RelativeLayout>
