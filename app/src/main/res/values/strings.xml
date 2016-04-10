@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Habits</string>
+    <string name="mRegister">Register</string>
 </resources>
