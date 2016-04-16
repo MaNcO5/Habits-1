@@ -1,4 +1,15 @@
 <resources>
     <string name="mRegister">Register</string>
     <string name="app_name">HABITS</string>
-    </resources>
+    <string name="Register_text">Register</string>
+    <string name="FirstName_register">First name</string>
+    <string name="UserName_register">Username</string>
+    <string name="Password_register">Password</string>
+    <string name="Age_register">Age</string>
+    <string name="Register_button_register">Register</string>
+    <string name="Login_text">Log in</string>
+    <string name="UserName_login">Username</string>
+    <string name="Password_login">Password</string>
+    <string name="SignIn_login">Sign in</string>
+    <string name="ForgotPassword_login">Forgot password</string>
+</resources>

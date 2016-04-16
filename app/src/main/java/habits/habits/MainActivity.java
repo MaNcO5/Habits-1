@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Typeface myTypeface = Typeface.createFromAsset(getAssets(), "Tinier.ttf");
+        Typeface Habits = Typeface.createFromAsset(getAssets(), "Tinier.ttf");
         TextView myTextView = (TextView)findViewById(R.id.Habits);
-        myTextView.setTypeface(myTypeface);
+        myTextView.setTypeface(Habits);
 
         /**
          * Login Button
