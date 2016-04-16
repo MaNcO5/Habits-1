@@ -27,8 +27,8 @@ public class RegisterActivity extends AppCompatActivity {
         final EditText registerPassword = (EditText) findViewById(R.id.registerPassword);
         final EditText registerAge = (EditText) findViewById(R.id.registerAge);
         final Button registerBtn = (Button) findViewById(R.id.registerBtn);
-
         registerBtn.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
 
