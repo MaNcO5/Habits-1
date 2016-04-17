@@ -9,28 +9,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="habits.habits.LoginActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/Login_text"
-        android:id="@+id/textView"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:layout_marginTop="59dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/loginUsername"
         android:hint="@string/UserName_login"
         android:gravity="center_horizontal"
-        android:layout_below="@+id/textView"
         android:layout_alignLeft="@+id/loginPassword"
         android:layout_alignStart="@+id/loginPassword"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="110dp"
         android:layout_alignRight="@+id/loginPassword"
         android:layout_alignEnd="@+id/loginPassword" />
 
@@ -57,7 +44,7 @@
         android:layout_height="wrap_content"
         android:text="@string/SignIn_login"
         android:id="@+id/loginBtn"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="80dp"
         android:layout_below="@+id/loginPassword"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -74,7 +61,7 @@
         android:id="@+id/forgotPasswordBtn"
         android:layout_below="@+id/loginBtn"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="25dp"
         android:textColor="#2fdc03" />
 
 </RelativeLayout>

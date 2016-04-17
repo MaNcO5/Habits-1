@@ -15,7 +15,7 @@
         android:id="@+id/registerFname"
         android:hint="@string/FirstName_register"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="80dp"
         android:gravity="center_horizontal"
         android:layout_alignRight="@+id/registerUsername"
         android:layout_alignEnd="@+id/registerUsername"
@@ -73,17 +73,5 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="130dp"
-        android:layout_height="40dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/Register_text"
-        android:id="@+id/Register_txt"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:gravity="center_vertical|center_horizontal"
-        android:textStyle="bold|italic" />
 
 </RelativeLayout>
