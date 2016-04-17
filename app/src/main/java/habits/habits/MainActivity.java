@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         TextView myTextView = (TextView)findViewById(R.id.Habits);
         myTextView.setTypeface(Habits);
 
+
         /**
          * Login Button
          * Create connection to button and make it respond to when clicked
