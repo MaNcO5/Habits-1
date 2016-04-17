@@ -20,7 +20,10 @@
         android:layout_alignRight="@+id/registerUsername"
         android:layout_alignEnd="@+id/registerUsername"
         android:layout_alignLeft="@+id/registerUsername"
-        android:layout_alignStart="@+id/registerUsername" />
+        android:layout_alignStart="@+id/registerUsername"
+        android:nestedScrollingEnabled="false"
+        android:imeOptions="actionNext"
+        android:singleLine="true" />
 
     <EditText
         android:layout_width="120dp"
@@ -33,7 +36,9 @@
         android:layout_alignRight="@+id/registerAge"
         android:layout_alignEnd="@+id/registerAge"
         android:layout_alignLeft="@+id/registerAge"
-        android:layout_alignStart="@+id/registerAge" />
+        android:layout_alignStart="@+id/registerAge"
+        android:imeOptions="actionNext"
+        android:singleLine="true" />
 
     <EditText
         android:layout_width="120dp"
