@@ -12,6 +12,6 @@
     <string name="Password_login">Password</string>
     <string name="SignIn_login">Sign in</string>
     <string name="ForgotPassword_login">Forgot password?</string>
-    <string name="Restart_button">Restart</string>
+    <string name="Reset_button">Reset</string>
     <string name="EmailAddress_forgot">Email address</string>
 </resources>
