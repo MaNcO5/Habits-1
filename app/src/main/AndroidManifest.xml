@@ -18,12 +18,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity"
+            android:label="@string/Login_text"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
         <activity android:name=".RegisterActivity"
+            android:label="@string/Register_text"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
         <activity android:name=".UserSettings"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
         <activity android:name=".ForgotPasswordActivity"
+            android:label="Forgot Password"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
         <activity android:name=".TestActivity"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"></activity>
